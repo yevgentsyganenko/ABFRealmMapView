@@ -12,7 +12,7 @@ The RealmMapView class creates an interface object that inherits MKMapView and m
   s.source       = { :git => "https://github.com/bigfish24/ABFRealmMapView.git", :tag => "v#{s.version}" }
   s.source_files  = "RealmMapView/*.{h,swift}"
   s.requires_arc = true
-  s.dependency "SwiftFetchedResultsController", ">= 5.0.1"
-  s.dependency "RealmSwift", ">= 2.1.1"
+  s.dependency "SwiftFetchedResultsController", "4.0.4"
+  s.dependency "RealmSwift", "2.0.2"
   s.dependency "ABFRealmMapView", ">=#{s.version}"
 end

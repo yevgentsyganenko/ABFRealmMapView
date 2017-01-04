@@ -13,7 +13,7 @@ The RealmMapView class creates an interface object that inherits MKMapView and m
   s.source_files  = "RealmMapView/*.{h,swift}"
   s.requires_arc = true
   s.dependency "SwiftFetchedResultsController", "2.4.3"
-  s.dependency "RealmSwift", "~>0.98"
+  s.dependency "RealmSwift", "0.99"
   s.dependency "ABFRealmMapView", "1.8"
 
 end
